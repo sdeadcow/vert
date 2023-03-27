@@ -36,7 +36,7 @@ collections:
     files:
       - label: "Landing"
         name: "landing"
-        file: "src/landing/index.md"
+        file: "src/index.json"
         fields:
           - { label: "Заголовок", name: "Заголовок", widget: "string" }
           - { label: "Подзаголовок", name: "Подзаголовок", widget: "string" }
