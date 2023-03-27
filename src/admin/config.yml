@@ -30,6 +30,15 @@ collections:
         multiple: true
         create: true
         options: ["Tags", "created", "from", "config.yml"]
+  - label: "Landing"
+    name: "landing"
+    folder: "src/landing"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: "Заголовок", name: "Заголовок", widget: "string" }
+      - { label: "Подзаголовок", name: "Подзаголовок", widget: "string" }
   - label: "Settings"
     name: "settings"
     editor:
